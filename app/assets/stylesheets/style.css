@@ -3,9 +3,25 @@
 }
 
 .time-slot {
-  display: inline-block;
-  width: 200px;
+  width: 100px;
   height: 100px;
-  background-color: yellow;
-  margin: 4px;
+  display: inline-block;
+  background-color: rgba(46, 253, 18, 0.14);
+  margin: 2px;
+  text-align: center;
+  border: 1px solid green;
+}
+
+.time-slot:hover {
+  background-color: rgba(155,155,155,0.8);
+}
+
+.time-slots-container {
+  font-size: 0;
+  margin: 0;
+  padding-left: 8%;
+  padding-right: 8%;
+  background-color: rgba(151, 189, 231, 0.14);
+  border: 1px solid silver;
+  text-align: center;
 }
