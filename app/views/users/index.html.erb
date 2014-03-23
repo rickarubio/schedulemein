@@ -1,6 +1,10 @@
 <h1 class="date"><%= Date.today.strftime("%A, %B %d, %Y") %></h1>
 <div class="time-slots-container">
+  <% @time_slot = 0000 %>
   <% (1..48).each do |slot_num| %>
-    <div class="time-slot"></div>
+    <div class="time-slot">
+      <p><%= Chronic.parse("#{@time_slot} minutes after 12AM").strftime('%l:%M %p') %></p>
+      <% @time_slot += 30 %>
+    </div>
   <% end %>
 </div>

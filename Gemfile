@@ -21,6 +21,7 @@ group :assets do
 end
 
 gem 'jquery-rails'
+gem 'chronic'
 
 group :test, :development do
   gem 'rspec-rails'
