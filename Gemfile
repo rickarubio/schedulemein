@@ -21,6 +21,7 @@ group :assets do
 end
 
 gem 'jquery-rails'
+gem 'chronic'
 
 group :test, :development do
   gem 'rspec-rails'
@@ -28,6 +29,8 @@ end
 
 group :test do
   gem 'shoulda-matchers'
+  gem 'capybara'
+  gem 'selenium-webdriver'
 end
 
 # To use ActiveModel has_secure_password
