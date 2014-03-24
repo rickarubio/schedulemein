@@ -22,6 +22,7 @@ end
 
 gem 'jquery-rails'
 gem 'chronic'
+gem "twitter-bootstrap-rails"
 
 group :test, :development do
   gem 'rspec-rails'
