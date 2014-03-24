@@ -1,4 +1,10 @@
-<h1 class="date"><%= Date.today.strftime("%A, %B %d, %Y") %></h1>
+<button type="button" class="btn btn-default btn-lg">
+  <span class="glyphicon glyphicon-star"></span> Star
+</button>
+<div class="date">
+  <p><i class="fa fa-camera-retro fa-5x"></i> fa-camera-retro</p>
+  <h1><%= Date.today.strftime("%A, %B %d, %Y") %></h1>
+</div>
 <div class="time-slots-container">
   <% @time_slot = 0000 %>
   <% (1..48).each do |slot_num| %>
