@@ -21,6 +21,7 @@
 .time-slot:hover {
   background-color: rgba(46, 253, 18, 0.6);
   border: 1px dotted green;
+  cursor: pointer;
 }
 
 .time-slots-container {
@@ -51,4 +52,5 @@ body {
 
 .fa-arrow-left:hover, .fa-arrow-right:hover {
   color: rgba(33, 190, 240, 1);
+  cursor: pointer;
 }
