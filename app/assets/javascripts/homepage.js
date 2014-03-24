@@ -12,7 +12,7 @@ var timeSlot = (function() {
           $(this).css('background-color', '');
           $(this).removeAttr('data-selected-time');
         } else {
-          $(this).css('background-color', 'rgb(46, 253, 18)');
+          $(this).css('background-color', 'rgba(46, 253, 18, 0.8)');
           $(this).attr('data-selected-time', 'yes');
         }
       });
