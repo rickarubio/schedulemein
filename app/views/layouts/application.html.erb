@@ -7,7 +7,12 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-<%= render 'shared/navbar' %> 
+<%= nav_bar :fixed => :top, :brand => "ScheduleMe.In"  do %>
+  <%= menu_group :pull => :right do %>
+    <%= menu_item "Sign Up" %>
+    <%= menu_item "Log In" %>
+  <% end %>
+<% end %>
 <%= yield %>
 
 </body>
