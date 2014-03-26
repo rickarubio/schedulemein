@@ -1,4 +1,8 @@
-<h1 class="date"><%= Date.today.strftime("%A, %B %d, %Y") %></h1>
+<div class="date">
+  <i class="fa fa-arrow-left fa-2x"></i>
+  <h1><%= Date.today.strftime("%A, %B %d, %Y") %></h1>
+  <i class="fa fa-arrow-right fa-2x"></i>
+</div>
 <div class="time-slots-container">
   <% @time_slot = 0000 %>
   <% (1..48).each do |slot_num| %>

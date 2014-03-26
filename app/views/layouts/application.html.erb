@@ -5,9 +5,10 @@
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
+  <%= stylesheet_link_tag 'http://fortawesome.github.io/Font-Awesome/assets/font-awesome/css/font-awesome.css' %>
 </head>
 <body>
-<%= nav_bar :fixed => :top, :brand => "ScheduleMe.In"  do %>
+<%= nav_bar :fixed => :top, :brand => "ScheduleMe.In", :responsive => true  do %>
   <%= menu_group :pull => :right do %>
     <%= menu_item "Sign Up" %>
     <%= menu_item "Log In" %>
